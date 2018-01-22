@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pooch3" />
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:text="Happy Gotcha Day, Ronald!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomText"
+        android:layout_alignParentRight="true"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:paddingRight="20dp"
+        android:textColor="@android:color/white"
+        android:text="It's been an amazing year!" />
+
+    <TextView
+        android:id="@+id/bottomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:text="&#10084;&#65039;, Mom &amp; Dad" />
+</RelativeLayout>
